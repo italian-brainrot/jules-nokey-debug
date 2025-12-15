@@ -76,10 +76,6 @@ neoForge {
 
         // applies to all the run configs above
         configureEach {
-            // Add mixin support
-            systemProperty 'mixin.env.remapRefMap', 'true'
-            systemProperty 'mixin.env.refMapRemappingFile', "${project.buildDir}/createSrgToMcp/output.srg"
-            
             // Recommended logging data for a userdev environment
             // The markers can be added/remove as needed separated by commas.
             // "SCAN": For mods scan.
@@ -137,8 +133,6 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
-
-    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

@@ -3,7 +3,6 @@
   "minVersion": "0.8",
   "package": "com.jules.nokeydebug.mixin",
   "compatibilityLevel": "JAVA_21",
-  "refmap": "julesnokeydebug-refmap.json",
   "mixins": [
   ],
   "client": [
@@ -11,5 +10,7 @@
   ],
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "refmap": "julesnokeydebug.refmap.json",
+  "target": "@env(DEFAULT)"
 }
