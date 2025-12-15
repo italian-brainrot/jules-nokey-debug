@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "com.example.examplemod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerMixin",
+    "TitleScreenMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "minVersion": "0.8",
+  "refmap": "examplemod.refmap.json",
+  "target": "@env(DEFAULT)",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
