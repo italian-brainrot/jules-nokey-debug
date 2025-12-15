@@ -1,0 +1,13 @@
+{
+  "itemGroup.julesnokeydebug": "Example Mod Tab",
+  "block.julesnokeydebug.example_block": "Example Block",
+  "item.julesnokeydebug.example_item": "Example Item",
+
+  "julesnokeydebug.configuration.title": "jules-nokey-debug Configs",
+  "julesnokeydebug.configuration.section.julesnokeydebug.common.toml": "jules-nokey-debug Configs",
+  "julesnokeydebug.configuration.section.julesnokeydebug.common.toml.title": "jules-nokey-debug Configs",
+  "julesnokeydebug.configuration.items": "Item List",
+  "julesnokeydebug.configuration.logDirtBlock": "Log Dirt Block",
+  "julesnokeydebug.configuration.magicNumberIntroduction": "Magic Number Text",
+  "julesnokeydebug.configuration.magicNumber": "Magic Number"
+}
