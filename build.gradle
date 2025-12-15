@@ -79,7 +79,7 @@ neoForge {
             // Add mixin support
             systemProperty 'mixin.env.remapRefMap', 'true'
             systemProperty 'mixin.env.refMapRemappingFile', "${project.buildDir}/createSrgToMcp/output.srg"
-
+            
             // Recommended logging data for a userdev environment
             // The markers can be added/remove as needed separated by commas.
             // "SCAN": For mods scan.
